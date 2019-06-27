@@ -1,0 +1,21 @@
+{
+    "tabs": [
+        {
+            "opened": false,
+            "title": "This is Tab 1",
+            "icon": "path"
+        },
+        {
+            "opened": true,
+            "title": "This is Tab 2",
+            "icon": "path"
+        }
+    ],
+    "bookmarks":[
+        {
+            "name": "ESPN",
+            "url": "https://espn.com"
+        }
+    ],
+    "browserType": "Firefox"
+}
