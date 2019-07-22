@@ -3,7 +3,9 @@ import browserTypeReducer from './browser-type.reducer'
 import tabsReducer from './tabs.reducer'
 import { combineReducers } from 'redux'
 
-const resume = combineReducers({ bookmarksReducer, browserTypeReducer, tabsReducer});
+const resume = combineReducers({ bookmarks: bookmarksReducer,
+                                 browserType: browserTypeReducer, 
+                                 tabs: tabsReducer});
 
 /* This is equivalent to the combine Reducers function located above.
 function resume(state = {}, action){
