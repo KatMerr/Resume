@@ -1,9 +1,10 @@
 import { ADD_TAB, REMOVE_TAB, OPEN_TAB } from '../actions/_actionTypes'
 //import { combineReducers } from 'redux'
 
-function tabs(state = [], action){
+function tabs(state = [{ title: "Hi", icon: "There"}], action){
     switch (action.type){
         case ADD_TAB:
+            console.log(state);
             return [
                     ...state,
                     {
