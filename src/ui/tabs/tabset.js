@@ -15,7 +15,11 @@ function RenderTabSet(){
     });
     const dispatch = useDispatch();
     const addNewTab = useCallback(
+<<<<<<< HEAD
         () => dispatch(addTab("New Tab", "default")),
+=======
+        () => dispatch(addTab("My Tab", "Is Great")),
+>>>>>>> 5f7fa24513338e4bec84109bc09eb36f5b611276
         [dispatch]
     )
 
